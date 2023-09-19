@@ -238,6 +238,7 @@ body > section:first-child{
 
     .first-section-image{
         width: 95%;
+        /* size: contain; *
     }
 
     .play-btn-img{
