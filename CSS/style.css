@@ -172,7 +172,7 @@ body > section:first-child{
     line-height: 60px; /* 150% */
 }
 
-.content-left-col, .content-right-col{
+.row-2-text, .row-2-img{
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -207,6 +207,10 @@ body > section:first-child{
         align-items: center;
         margin: auto;
         padding-top: 4em;
+        background-image: url(".Images/sec-2-bg.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
     }
 
     .second-section > h2{
@@ -238,7 +242,10 @@ body > section:first-child{
 
     .first-section-image{
         width: 95%;
-        /* size: contain; *
+    }
+
+    .third-section-image{
+        
     }
 
     .play-btn-img{
@@ -250,10 +257,6 @@ body > section:first-child{
     .menu-icon > label > img {
         cursor: pointer;
     }
-
-    /* .hamburger-btn{
-        cursor: pointer;
-    } */
 
     .menu-icon{
         display: none;
@@ -338,7 +341,7 @@ body > section:first-child{
             /* width: 100%; */
         }
 
-        .content-left-col, .content-right-col{
+        .row-2-text, .row-2-img{
             width: 100%;
             /* display: flex;
             justify-content: flex-start;
