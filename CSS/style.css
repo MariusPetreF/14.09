@@ -168,6 +168,10 @@ body > section:first-child{
     justify-content: flex-end;
 }
 
+.row  .nav-bar-right-content {
+
+}
+
 .main-header{
     /* margin: auto 9%; */
     color: #22343D;
@@ -215,10 +219,17 @@ body > section:first-child{
     align-items: center;
     margin: auto;
     padding-top: 4em;
-    background-image: url(".Images/sec-2-bg.png");
+    background-image: url("../Images/sec-2-bg.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
+    padding-bottom: 50px;
+    /* -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";*/
 }
 
 .second-section > h2{
@@ -284,7 +295,7 @@ body > section:first-child{
 
     .nav-bar-wrapper > .nav-bar-right-content{
         position: absolute;
-        width: 100%;
+        width: 95%; /*was 100% (-20+20 position bug) */
         top: 80px;
         flex-direction: column;
         background-color: #ffffff;
